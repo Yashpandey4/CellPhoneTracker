@@ -62,4 +62,6 @@ map. This leaf is a base station b0. The central server sends b0 to b
 along with the path in the routing map from b to b_0.
 
 ### Final Thoughts and notes
-I thoroughly enjoyed working on this project and implementing it. I thank Dr Amitabha Bagchi for having given me this opportunity of working on this project. A full description of the project methods and functions can be found in the file labelled 'problem statement'.
+I thoroughly enjoyed working on this project and implementing it. I thank Dr Amitabha Bagchi from the Dept of CSE, IIT Delhi, for having given me this opportunity of working on it. A full description of the project methods and functions can be found in the file labelled 'problem statement'.
+
+Built with ♥ by Pratyush Pandey.
