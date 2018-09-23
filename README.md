@@ -53,10 +53,10 @@ of each area exchange makes up the mobile phone tracking data structure we will 
 process of tracking goes as follows.
 * When a base station b receives a call for a mobile phone with number
 m it sends this query to C.
- If the root of the routing map is r, we rst check if m 2 Sr. If not then
-we tell b that the number m is \not reachable."
- If m 2 Sr we nd that e such that parent(e) = r and m 2 Se, i.e. we
-nd the child of r which contains m in its resident set.
- Continue like this till we reach all the way down to a leaf of the routing
+* If the root of the routing map is r, we first check if m belongs to Sr. If not then
+we tell b that the number m is not reachable.
+* If m belongs to Sr we find that e such that parent(e) = r and m belongs to Se, i.e. we
+find the child of r which contains m in its resident set.
+* Continue like this till we reach all the way down to a leaf of the routing
 map. This leaf is a base station b0. The central server sends b0 to b
-along with the path in the routing map from b to b0.
+along with the path in the routing map from b to b_0.
